@@ -87,8 +87,8 @@ hr {
   justify-content: center;
 }
 .navItem{
-  width: 100vw;
-  margin: 1vw;
+  margin: 0.5vw;
+  padding: 0;
 }
 .item{
   flex: 1;
