@@ -80,24 +80,34 @@ hr {
 }
 
 /* ------------classes---------------- */
+
+/* group flexbox settings that are only applied to navbar group so that elements are center aligned and justified */
 .navGroup{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
+/* item flexbox settings applied to navbar items for proper margin and padding */
 .navItem{
   margin: 0.5vw;
   padding: 0;
 }
+/* general flexbox item class to be applied items within a flexbox group of size 1:1 */
 .item{
   flex: 1;
   margin: 1vw;
 }
+/* general flexbox group used to group items together */
 .group{
   display: flex;
   flex-direction: row;
 }
+/* used to align text to the left for elements this class is applied to.  */
 .textAlign{
   text-align: left;
+}
+/* sets font size to 14 point to elements witht this this class */
+.fontSize{
+  font-size: 14px;
 }
